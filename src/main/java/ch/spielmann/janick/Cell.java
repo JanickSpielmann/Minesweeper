@@ -6,7 +6,6 @@ public class Cell {
     private boolean marked;
     private boolean mine;
 
-    private char symbol;
     private int number;
 
     public Cell() {
