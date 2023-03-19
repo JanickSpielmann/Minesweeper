@@ -2,6 +2,7 @@ package ch.spielmann.janick;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Minesweeper minesweeper = new Minesweeper(2,2,1);
+        minesweeper.gameLoop();
     }
 }
